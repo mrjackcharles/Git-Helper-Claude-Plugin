@@ -1,16 +1,16 @@
 {
-  "name": "smartr-challenge-plugin",
-  "version": "1.0.0",
-  "description": "Smartr coding challenge plugin starter",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "claude-code",
-    "plugin"
-  ],
-  "author": "",
-  "license": "MIT",
-  "dependencies": {}
+    "name": "git-helper-plugin",
+    "version": "1.0.0",
+    "description": "Local code review and commit helper for Claude Code",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "claude-code",
+        "plugin"
+    ],
+    "author": "Jack Charles",
+    "license": "MIT",
+    "dependencies": {}
 }
