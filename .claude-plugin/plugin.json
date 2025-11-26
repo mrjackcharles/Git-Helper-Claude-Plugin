@@ -1,16 +1,26 @@
 {
-  "name": "smartr-challenge-plugin",
-  "version": "1.0.0",
-  "description": "Your Smartr coding challenge plugin - replace this with your plugin description",
-  "author": "Your Name",
-  "repository": "",
-  "main": "index.js",
-  "engines": {
-    "claude-code": "^1.0.0"
-  },
-  "mcpServers": {},
-  "commands": {},
-  "skills": {},
-  "subagents": {},
-  "hooks": {}
+    "name": "gitHelper-plugin",
+    "version": "0.1.0",
+    "description": "Developer productivity plugin for the Smartr challenge",
+    "author": {
+        "name": "Jack Charles"
+    },
+    "commands": [
+        "./commands/review-changes.md",
+        "./commands/suggest-commit-message.md"
+    ],
+    "skills": "./skills/code-review/SKILL.md",
+    "hooks": {
+        "PostToolUse": [
+            {
+                "matcher": "Write|Edit",
+                "hooks": [
+                    {
+                        "type": "command",
+                        "command": "./hooks/after-write.sh"
+                    }
+                ]
+            }
+        ]
+    }
 }
