@@ -5,3 +5,5 @@ As you can see I have changed the hook command to "echo 'HOOK WORKS'" to try and
 Okay that previous step is sorted and it is loading in with commands, skills and hooks in the plugin.json. I would now like to test the skills functionality. I have also provided the plugin.json below: _plugin.json_. What is the best way for me to test the skills functionality?
 
 'For local development you can use a simple folder as a marketplace': For this folder should I do it in the same project with my plugin or a new one?
+
+For a claude code plugin give a good example structure for a code review skill that takes in git context and includes severity and safety checks in the SKILL.md
