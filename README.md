@@ -58,16 +58,33 @@ Prereqs: Bash, git, and Claude Code with plugin loading enabled.
 
 ## Demo
 
+---
+
 Suggested Commit Message:
 ![diagram](./demo-images/suggested-commit-message.png)
+
+---
+
 Code Reviewer Prompt:
 ![diagram](./demo-images/code-reviewer-prompt.png)
+
+---
+
 Code Review Report:
 ![diagram](./demo-images/code-review-report.png)
+
+---
+
 Warning AfterWrite Hook:
 ![diagram](./demo-images/after-write-hook.png)
+
+---
+
 Example Directory Used:
 ![diagram](./demo-images/example-directory.png)
+
+---
+
 Example File Used:
 ![diagram](./demo-images/example-file.png)
 
